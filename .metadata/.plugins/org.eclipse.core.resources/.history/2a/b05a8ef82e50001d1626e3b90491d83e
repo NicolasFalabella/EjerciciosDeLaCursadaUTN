@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : ejercicio18-0.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int longitud;
+	char nombreApellido[] = "juan Perez";
+	longitud = strlen(nombreApellido);
+	FILE *pArchivo;
+
+	if((pArchivo = fopen "archivo_texto.txt", "w")){
+
+	}
+
+
+
+	return EXIT_SUCCESS;
+}
+
+int escribirNombresTXT(){
+
+	return 0;
+}

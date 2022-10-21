@@ -1,0 +1,21 @@
+/*
+ * cuentas.c
+ *
+ *  Created on: 19 oct. 2022
+ *      Author: Fala
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+int contadorPositivosYNegativos(int contadorPositivos, int contadorNegativos) {
+
+	int buffer;
+
+	if (buffer > 0) {
+		contadorPositivos++;
+	} else {
+		contadorNegativos++;
+	}
+
+ return buffer;
+}

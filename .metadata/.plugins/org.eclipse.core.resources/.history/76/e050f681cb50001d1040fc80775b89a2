@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : ejercicio18-0.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	FILE *pArchivo;
+	char arrayNombreApellido [] = "gasty messi";
+	int cantidadDeLetrasDelTexto;
+	int longitudDelTexto;
+
+	if((pArchivo = fopen("pruebaNombreApellido.txt","w")) == NULL){// se abre en modo escritura por la 'W'
+		printf("el archivo no se puede abrir");
+		exit (1);
+	}
+	longitudDelTexto = strlen(arrayNombreApellido);
+	cantidadDeLetrasDelTexto = fwrite( arrayNombreApellido, sizeof(char), longitudDelTexto, pArchivo);
+	if(cantidadDeLetrasDelTexto < longitudDelTexto){
+
+	}
+
+
+
+
+	return EXIT_SUCCESS;
+}
+

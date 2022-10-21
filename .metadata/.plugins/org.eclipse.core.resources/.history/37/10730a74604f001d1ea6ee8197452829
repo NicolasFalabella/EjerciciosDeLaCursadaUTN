@@ -1,0 +1,20 @@
+/*
+ * listados.c
+ *
+ *  Created on: 19 oct. 2022
+ *      Author: Fala
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TAM_ARRAY 10
+
+int listadoNumerosIngresados(int arrayNumero[]) {
+
+	for (int i = 0; i < TAM_ARRAY; i++) {
+		printf("numero %d %d \n", i + 1, arrayNumero[i]);
+	}
+
+	return arrayNumero[];
+
+}

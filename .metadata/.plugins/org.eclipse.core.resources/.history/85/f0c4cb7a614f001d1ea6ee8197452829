@@ -1,0 +1,24 @@
+/*
+ * cuentas.c
+ *
+ *  Created on: 19 oct. 2022
+ *      Author: Fala
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TAM_VECTOR 10
+
+int contadorPositivos(int buffer,int contadorPositivos, int arrayNumero) {
+
+
+	for (int i = 0; i < TAM_VECTOR; i++) {
+
+			arrayNumero[i] = buffer;
+
+			if (buffer > -1) {
+				contadorPositivos++;
+			}
+		}
+		return contadorPositivos;
+}

@@ -1,0 +1,45 @@
+/*
+ * cuentas.c
+ *
+ *  Created on: 19 oct. 2022
+ *      Author: Fala
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TAM_ARRAY 10
+
+int contadorPositivos(int buffer, int contadorPositivos, int arrayNumero) {
+
+	for (int i = 0; i < TAM_ARRAY; i++) {
+		arrayNumero[i] = buffer;
+		if (buffer > -1) {
+			contadorPositivos++;
+		}
+	}
+	return contadorPositivos;
+}
+
+int contadorNegativos(int buffer, int contadorNegativos, int arrayNumero) {
+
+	for (int i = 0; i < TAM_ARRAY; i++) {
+		arrayNumero[i] = buffer;
+		if (buffer < -1) {
+			contadorNegativos++;
+		}
+	}
+
+	return contadorNegativos;
+}
+
+int sumatoriaDeLosPares(int buffer, int acumuladorPares) {
+
+	for (int i = 0; i < TAM_ARRAY; i++) {
+		if (buffer % 2 == 0) {
+			acumuladorPares += buffer;
+		}
+	}
+
+	return acumuladorPares;
+}
+

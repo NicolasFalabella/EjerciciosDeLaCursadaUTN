@@ -1,0 +1,16 @@
+/*
+ * cuentas.h
+ *
+ *  Created on: 19 oct. 2022
+ *      Author: Fala
+ */
+
+#ifndef CUENTAS_H_
+#define CUENTAS_H_
+
+int contadorPositivos(int buffer,int contadorPositivos, int arrayNumero[]);
+int contadorNegativos(int buffer, int contadorNegativos, int arrayNumero[]);
+int sumatoriaDeLosPares(int buffer,int acumuladorPares, arrayNumero[]);
+int elMayorDeLosImpares(int buffer, int banderaMayorImpares,int mayorImpares, int arrayNumero[]);
+
+#endif /* CUENTAS_H_ */

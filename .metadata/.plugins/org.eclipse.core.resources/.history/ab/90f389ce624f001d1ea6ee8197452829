@@ -1,0 +1,20 @@
+/*
+ * validaciones.c
+ *
+ *  Created on: 19 oct. 2022
+ *      Author: Fala
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TAM_ARRAY 10
+
+int ingresoDeNumeros(int buffer){
+
+	for(int i = 0; i < TAM_ARRAY; i ++){
+		printf("ingrese numeros");
+		scanf("%d", buffer);
+
+	}
+	return buffer;
+}
